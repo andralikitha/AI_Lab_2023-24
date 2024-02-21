@@ -27,7 +27,6 @@ if depth == 3:
 return values[nodeIndex]
 if maximizingPlayer:
 best = MIN
-# Recur for left and right children
         for i in range(0, 2):
 val = minimax(depth + 1, nodeIndex * 2 + i,
                           False, values, alpha, beta)
