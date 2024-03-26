@@ -18,6 +18,7 @@ factorial(A,B) :-
            factorial(C,D),
            B is A*D.
 ### Output:
-<img width="876" alt="Screenshot 2024-03-11 155134" src="https://github.com/andralikitha/AI_Lab_2023-24/assets/131592130/d2de74af-2ce6-4677-91bb-a9dfbce9bf59">
+![316221568-7cca35c3-93c7-44c7-8b5b-6384a3f469a1](https://github.com/andralikitha/AI_Lab_2023-24/assets/131592130/d9f973d8-2197-4f52-aa36-7f77617ee82a)
+
 ### Result:
 Thus the factorial of given number was found by logic programming. 
