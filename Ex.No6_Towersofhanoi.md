@@ -13,6 +13,7 @@ To  write  a logic program  to solve Towers of Hanoi problem  using SWI-PROLOG.
 7.        iii)	Move  N-1 disks from Y to X.
 8. Run the program  to find answer of  query.
 ### Program:
+```
 move(1,X,Y,_) :- 
    write('Move top disk from '), 
    write(X), 
@@ -25,6 +26,7 @@ move(N,X,Y,Z) :-
    move(M,X,Z,Y), 
    move(1,X,Y,_), 
    move(M,Z,Y,X).
+```
 ### Output:
 ![316221981-defb401d-5004-4ccc-96aa-48915fc9aa5a](https://github.com/andralikitha/AI_Lab_2023-24/assets/131592130/2047c26b-e68d-46a3-ba3a-0c6608537b8f)
 ### Result:
