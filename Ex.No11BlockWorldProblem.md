@@ -63,10 +63,11 @@ Problem 2: Problem2.pddl
 ```
 ### Output/Plan:
 Output-1:
-![0utput 1](https://github.com/andralikitha/AI_Lab_2023-24/assets/131592130/8cdb8dcb-3e03-408c-a782-cae3f2cac3af)
+<img width="520" alt="image" src="https://github.com/andralikitha/AI_Lab_2023-24/assets/131592130/1d22b419-7653-4cab-a715-6a45a8a02cf5">
 
 
 Output-2:
+
 
 ### Result:
 Thus the plan was found for the initial and goal state of block world problem.
