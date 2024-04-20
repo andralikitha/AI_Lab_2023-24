@@ -63,14 +63,9 @@ Problem 2: Problem2.pddl
 ```
 ### Output/Plan:
 Output-1:
-
-
-![318459798-8e3d7fa4-a2a6-4f27-b8fc-df0084c61ba9](https://github.com/andralikitha/AI_Lab_2023-24/assets/131592130/c89c9aa3-de37-4417-8e7e-26f3a27dda6e)
-
+![318459798-8e3d7fa4-a2a6-4f27-b8fc-df0084c61ba9](https://github.com/andralikitha/AI_Lab_2023-24/assets/131592130/4c52b639-cdf0-492f-90a1-97464df4d5b5)
 
 Output-2:
-
-![318460763-c83b752c-cf6d-4316-98d8-98e8d5344eab](https://github.com/andralikitha/AI_Lab_2023-24/assets/131592130/d83f5750-8f50-4290-97c1-9f943525f181)
-
+![318460763-c83b752c-cf6d-4316-98d8-98e8d5344eab](https://github.com/andralikitha/AI_Lab_2023-24/assets/131592130/0ac15c63-3da2-461c-b47a-1af11ad183b5)
 ### Result:
 Thus the plan was found for the initial and goal state of block world problem.
