@@ -13,6 +13,7 @@ To write a logic program to design a circuit like half adder and half subtractor
 7. Test the logic.
 8. Stop the program.
 ### Program:
+```
 and(0,0,0).
 and(0,1,0).
 and(1,1,1).
@@ -38,6 +39,7 @@ fulladder(A, B, Cin, Sum, Cout) :-
     halfadder(A, B, S1, C1),          
     halfadder(S1, Cin, Sum, C2),      
     or(C1, C2, Cout).
+```
 ### Output:
 ![316294597-ee3dfe1e-8807-46d7-baa7-7e0e48b42046](https://github.com/andralikitha/AI_Lab_2023-24/assets/131592130/1a983f36-7038-46d2-a3ec-ad7c1b5fd68e)
 ### Result:
