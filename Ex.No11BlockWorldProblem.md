@@ -62,6 +62,7 @@ Problem 2: Problem2.pddl
 	          (clear a)  (clear b) (clear c) (arm-empty))
 	   (:goal (and (on a b) (on b c))))
 ```
+
 ### Output/Plan:
 Output-1:
 <img src="https://github.com/Naadira/AI_Lab_2023-24/assets/128135126/8e3d7fa4-a2a6-4f27-b8fc-df0084c61ba9" alt="" width="75%" height="70%">
