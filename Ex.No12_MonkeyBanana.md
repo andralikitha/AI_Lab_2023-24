@@ -12,6 +12,7 @@ Step 5:   Define a problem for Monkey Banana problem.<br>
 Step 6:  Obtain the plan for given problem.<br> 
 Step 7: Stop the program.<br> 
 ### Program:
+```
 (define (domain monkey)	       
   (:requirements :strips)
    (:constants monkey box knife bananas glass waterfountain)
@@ -60,6 +61,7 @@ Step 7: Stop the program.<br>
 				 (at monkey ?y)
 				 (onbox ?y))
 	     :effect (haswater)))
+```
 ### Input 
 (define (problem pb1)
     	(:domain monkey)
