@@ -44,7 +44,10 @@ symptom(raju,headache).
 symptom(raju,sneezing).
 symptom(raju,sore_throat).
 ```
+
+
 ### Output:
 ![316295905-f131f707-d9d2-4ef0-bf06-59dfea6119d6](https://github.com/andralikitha/AI_Lab_2023-24/assets/131592130/85a50765-bb9f-482c-a46d-a18074dc5058)
+
 ### Result:
 Thus the simple medical diagnosis system was built sucessfully.
