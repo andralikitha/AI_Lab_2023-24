@@ -15,7 +15,7 @@ Step 8 : In stack action, Robot arm place the block on under block. Precondition
 Step 9 : Define a problem for block world problem.<br> 
 Step 10 : Obtain the plan for given problem.<br> 
 ### Program:
-~~~~
+```
 (define (domain blocksworld)
 (:requirements :strips :equality)
 (:predicates (clear ?x)
@@ -43,7 +43,8 @@ Step 10 : Obtain the plan for given problem.<br>
   :precondition (and (on ?ob ?underob) (clear ?ob) (arm-empty))
   :effect (and (holding ?ob) (clear ?underob)
                (not (on ?ob ?underob)) (not (clear ?ob)) (not (arm-empty)))))
-### Input
+```
+### Input:
 Problem 1: Problem1.pddl
 ```
 (define (problem pb1)
@@ -63,11 +64,8 @@ Problem 2: Problem2.pddl
 ```
 ### Output/Plan:
 Output-1:
-<img width="520" alt="image" src="https://github.com/andralikitha/AI_Lab_2023-24/assets/131592130/1d22b419-7653-4cab-a715-6a45a8a02cf5">
-
-
+<img src="https://github.com/Naadira/AI_Lab_2023-24/assets/128135126/8e3d7fa4-a2a6-4f27-b8fc-df0084c61ba9" alt="" width="75%" height="70%">
 Output-2:
-
-
+<img src="https://github.com/Naadira/AI_Lab_2023-24/assets/128135126/c83b752c-cf6d-4316-98d8-98e8d5344eab" alt="" width="75%" height="70%">
 ### Result:
 Thus the plan was found for the initial and goal state of block world problem.
