@@ -62,6 +62,7 @@ Step 7: Stop the program.<br>
 				 (onbox ?y))
 	     :effect (haswater)))
 ```
+
 ### Input
 ```
 (define (problem pb1)
@@ -82,8 +83,5 @@ Step 7: Stop the program.<br>
 ```
 ### Output/Plan:
 ![318463769-2b76cef9-2929-4dc1-b9ea-c1d96715ada7](https://github.com/andralikitha/AI_Lab_2023-24/assets/131592130/5e47f8ad-fe8a-489e-b5ba-01587277d3ef)
-
-
-
 ### Result:
 Thus the plan was found for the initial and goal state of given problem.
