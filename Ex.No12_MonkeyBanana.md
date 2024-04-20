@@ -62,7 +62,8 @@ Step 7: Stop the program.<br>
 				 (onbox ?y))
 	     :effect (haswater)))
 ```
-### Input 
+### Input
+```
 (define (problem pb1)
     	(:domain monkey)
   	(:objects p1 p2 p3 p4 bananas monkey box knife)
@@ -78,6 +79,7 @@ Step 7: Stop the program.<br>
 	)
   	(:goal (and (hasbananas)))
 )
+```
 ### Output/Plan:
 ![318463769-2b76cef9-2929-4dc1-b9ea-c1d96715ada7](https://github.com/andralikitha/AI_Lab_2023-24/assets/131592130/5e47f8ad-fe8a-489e-b5ba-01587277d3ef)
 
